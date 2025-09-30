@@ -25,7 +25,7 @@ Behavior:
 Behavior:
 - Mengubah `isFollowed` merekomposisi `Text`/`Button`, menjaga sinkronisasi UI dan state.
 
-## Mengapa Compose lebih sederhana daripada XML pada kasus ini
+## Mengapa Compose lebih sederhana daripada XML
 - UI deklaratif berbasis state: UI adalah fungsi dari state; tidak perlu pembaruan view imperatif, wiring listener, atau `findViewById`.
 - Lebih sedikit boilerplate: Layout, styling, dan interaksi berada dalam composable Kotlin yang ringkas alih\-alih terpisah antara XML \+ Kotlin.
 - Komposabilitas dan reuse: Composable kecil \(`CounterApp`, `ToggleWarna`, `ProfileCard`\) mudah diuji dan digunakan ulang.
